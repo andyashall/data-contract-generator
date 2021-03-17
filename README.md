@@ -1,16 +1,11 @@
-# MithrilJS Boilerplate
+# Data Contract Generator
 
-Minimal boilerplate using express for back-end, Mithril for front-end and Webpack for hot reload and bundling.
+Web app to generate new data contracts for the data load process
 
 ## Set up
 
-1. Clone the repo using `git clone https://github.com/andyashall/mithril-boilerplate.git'`
-2. Install the dependencies `cd mithril-boilerplate && npm i`
-3. Add your MongoDB URL to the `mongo.config.js` file.
-4. `npm start`
-5. open http://localhost:3000 in your browser.
-6. To bundle for production run `npm run build`
-
-## Toodo 
-
-- [ ] Update all package versions 
+1. Clone the repo using `git clone https://github.com/andyashall/data-contract-generator'`
+2. Install the dependencies `cd data-contract-generator && npm i`
+3. `npm start`
+4. open http://localhost:3000 in your browser.
+5. To bundle for production run `npm run build`
