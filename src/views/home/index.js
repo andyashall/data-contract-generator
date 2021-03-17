@@ -1,10 +1,10 @@
 import m from 'mithril'
 
 import Header from '../../components/header'
-import Posts from '../../components/posts'
+import filePicker from '../../components/filePicker'
 
 export default class Home {
   view() {
-    return [m(Header), m(Posts)]
+    return [m(Header), m(filePicker)]
   } 
 }

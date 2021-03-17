@@ -1,14 +1,14 @@
 const initialState = ''
 
-const nav = (state = initialState, action) => {
+const file = (state = initialState, action) => {
   switch (action.type) {
-    case 'SEARCH':
+    case 'SET_FILE':
       return action.data
-    case 'CLEAR_SEARCH': 
+    case 'CLEAR_FILE': 
       return ''
     default:
       return state
   }
 }
 
-export default nav
+export default file

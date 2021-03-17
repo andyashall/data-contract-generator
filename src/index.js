@@ -1,12 +1,13 @@
 import m from 'mithril'
+import { resolveConfigFile } from 'prettier'
 
 import Home from './views/home'
-import Page from './views/page'
-import Signin from './views/signin'
+// import Config from './views/config'
+// import Result from './views/result'
 
 
 m.route(document.body, '/', {
   '/': Home,
-  '/signin': Signin,
-  '/p/:page': Page
+  // '/config': Config,
+  // '/result': Result
 })

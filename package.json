@@ -28,6 +28,7 @@
     "bcryptjs": "*",
     "body-parser": "*",
     "compression": "*",
+    "dropzone": "^5.8.1",
     "express": "*",
     "js-cookie": "^2.2.1",
     "mithril": "^2.0.4",

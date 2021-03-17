@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
-import search from './search'
+import file from './file'
+import params from './params'
 
 const app = combineReducers({
-  search
+  file,
+  params
 })
 
 export default app
