@@ -18,7 +18,8 @@ export default class Posts {
       action: '/',
       class: 'dropzone'
     }, m('.dropzoneText', 'Drop file here to start'), 
-    this.showNext ? m('h1', 'Next') : false
+    this.showNext
+? m('h1', 'Next') : false
     )
   }
 }
