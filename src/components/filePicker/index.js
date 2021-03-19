@@ -4,7 +4,8 @@ import store from '../../store'
 
 export default class Posts {
   constructor(vnode) {
-    let file = ''
+    let file = '',
+        showNext = false
   }
   view(vnode) {
     return m('form#drop-zone', {
@@ -13,10 +14,11 @@ export default class Posts {
         margin: 0,
         boxSizing: 'border-box'
       },
+      onClick: () => this.showNext = this.showNext ? false : true,
       action: '/',
       class: 'dropzone'
-    },
-      m('.dropzoneText', 'Drop file here to start')
+    }, m('.dropzoneText', 'Drop file here to start'), 
+    this.showNext ? m('h1', 'Next') : false
     )
   }
 }
