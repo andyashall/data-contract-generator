@@ -1,7 +1,7 @@
 import m from 'mithril'
 import css from './style.scss'
 import store from '../../store'
-import {search, clearSearch} from '../../actions'
+import {setParams, clearParams} from '../../actions'
 
 export default class Header {
   post() {
